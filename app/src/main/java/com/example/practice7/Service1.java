@@ -41,4 +41,8 @@ public class Service1 extends Service {
     public IBinder onBind(Intent intent) {
         return null; // Для сервисов без привязки возвращаем null
     }
+
+    public MediaPlayer getMediaPlayer() {
+        return mediaPlayer;
+    }
 }
